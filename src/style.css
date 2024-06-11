@@ -1,0 +1,123 @@
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#log-sign {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    text-decoration: none;
+    gap: 0.5rem;
+    margin-left: 60px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 65px;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 50px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    min-height: 72vh;
+    width: 75%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 34px;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    background-image: url("/Spotify-Clone/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    color: white;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 25px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#progressBar {
+    width: 100vh;
+    cursor: pointer;
+}
+
+.songItem {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 75%;
+    color: black;
+    margin: 12px 0;
+    border-radius: 30px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.songItem a {
+    color: black;
+}
+
+.songItem img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.timeStamp {
+    margin: 0 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
