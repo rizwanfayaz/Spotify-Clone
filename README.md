@@ -1,4 +1,6 @@
 # Spotify-Clone
 Spotify App
 <br>
-work under progress...
+work almost done....
+<br>
+java script pending
