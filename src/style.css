@@ -69,7 +69,6 @@ ul a {
 }
 
 .bottom {
-    margin-left: -40px;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -141,6 +140,26 @@ ul a {
 .songInfo {
     position: absolute;
     left: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.songInfo img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .playTime {
@@ -159,9 +178,7 @@ ul a {
 
 .albumsContainer {
     height: 100vh;
-    background-color: blueviolet;
-    /*temporary*/
-    margin: 20px 40px;
+    margin: 20px 40px 0px 40px;
 }
 
 .bestPicksContainer {
@@ -179,7 +196,6 @@ ul a {
 .albumsContainer #hd2 {
     color: white;
     margin: 20px 0 0 0;
-    /*temporary*/
 }
 
 .albumCover {
@@ -188,6 +204,7 @@ ul a {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+    cursor: pointer;
 
 }
 
@@ -197,4 +214,56 @@ ul a {
     margin-top: 5px;
     text-align: center;
     font-size: 18px;
+}
+
+.footElements {
+    height: 45vh;
+    background-color: rgba(24, 22, 22, 0.849);
+    display: flex;
+}
+
+.footLinks {
+    width: 150px;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.footLinks a {
+    text-decoration: none;
+    color: rgb(216, 213, 213);
+    margin-top: 10px;
+}
+
+.footLinks a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footIcons {
+    height: 150px;
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 10vw;
+}
+
+.footIcons a {
+    text-decoration: none;
+    color: rgb(216, 213, 213);
+}
+
+.cpyrgt {
+    height: 20vh;
+    width: 100%;
+    padding: 5px;
+    border-top: 1px solid white;
+    color: rgb(216, 213, 213);
+    background-color: rgba(24, 22, 22, 0.849);
 }
