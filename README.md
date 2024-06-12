@@ -1,6 +1,4 @@
 # Spotify-Clone
-Spotify App
+This is a spotify app clone --- non functional...
 <br>
-work almost done....
-<br>
-java script pending
+littlebit pending
