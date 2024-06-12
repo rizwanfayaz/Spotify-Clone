@@ -9,6 +9,8 @@ body {
 
 nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0;
 }
 
 #log-sign {
@@ -26,8 +28,8 @@ nav ul {
     display: flex;
     align-items: center;
     list-style-type: none;
-    background-color: rgb(54, 47, 47);
-    height: 65px;
+    background-color: rgba(54, 47, 47, 0.884);
+    height: 55px;
     color: white;
 }
 
@@ -70,7 +72,7 @@ ul a {
     position: sticky;
     bottom: 0;
     color: white;
-    height: 80px;
+    height: 75px;
     background-color: rgba(29, 26, 26, 0.959);
     display: flex;
     justify-content: center;
@@ -128,6 +130,17 @@ ul a {
 }
 
 .songInfo img {
-   opacity: 0;
-   transition: opacity 1s ease-in;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.songList {
+    overflow: scroll;
+    height: 500px;
+}
+
+.songList::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
