@@ -66,6 +66,7 @@ ul a {
     background-image: url("/Spotify-Clone/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 5px 5px 8px 5px #888888;
 }
 
 .bottom {
@@ -73,7 +74,7 @@ ul a {
     width: 100%;
     bottom: 0;
     color: white;
-    height: 75px;
+    height: 70px;
     background-color: rgba(29, 26, 26, 0.959);
     display: flex;
     justify-content: center;
@@ -91,7 +92,7 @@ ul a {
 }
 
 #progressBar {
-    width: 100vh;
+    width: 80vh;
     cursor: pointer;
 }
 
@@ -257,6 +258,10 @@ ul a {
 .footIcons a {
     text-decoration: none;
     color: rgb(216, 213, 213);
+}
+
+.footIcons a :hover {
+    color: white;
 }
 
 .cpyrgt {
